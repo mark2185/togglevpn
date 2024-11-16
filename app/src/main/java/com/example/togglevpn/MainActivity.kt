@@ -132,7 +132,7 @@ class MainActivity : ComponentActivity() {
         OutlinedButton(
             onClick = onClick,
             modifier = Modifier.fillMaxWidth(0.4f).wrapContentHeight().padding(vertical = 8.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.White)
+            colors = ButtonDefaults.buttonColors(containerColor = Color.Gray)
         ) {
             Text(text, Modifier.padding(8.dp))
         }
